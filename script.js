@@ -21,6 +21,5 @@ li.forEach((list) => {
             });
         }
         list.classList.add("active");
-        console.log(list);
     });
 });
