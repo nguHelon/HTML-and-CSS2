@@ -584,13 +584,17 @@ body {
     margin-bottom: 20px;
   }
 
-  #header .header ul li:first-child i {
-    display: initial;
-  }
-
   #header .header ul li span {
     font-size: 20px;
     margin-bottom: 0px;
+  }
+
+  #header .header .account > i {
+    display: initial;
+  }
+
+  #header .header ul li:first-child i {
+    display: initial;
   }
 
   #header {
@@ -624,5 +628,37 @@ body {
 
   .post-info .post-body .img {
     height: 200px;
+  }
+}
+
+@media (max-width: 550px) {
+  .header .account .info img {
+    display: none;
+  }
+
+  .header .account .icons {
+    display: none;
+  }
+
+  #body {
+    padding: 20px 7px 0px;
+  }
+
+  #body .body1 {
+    display: none;
+  }
+
+  .body2 {
+    flex-basis: 100%;
+  }
+
+  .body2 .post-content {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 280px) {
+  .header .account .info button {
+    display: none;
   }
 }
