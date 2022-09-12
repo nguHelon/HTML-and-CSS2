@@ -661,4 +661,9 @@ body {
   .header .account .info button {
     display: none;
   }
+  
+  #header .header .account > i {
+  margin-left: 15px;
+  margin-right: 8px;
+}
 }
